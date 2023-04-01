@@ -1,6 +1,13 @@
+import Post from "./components/Post";
+
 function App() {
   return (
-    <h1>Hello Friends</h1>
+    <main>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </main>
   );
 }
 
